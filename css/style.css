@@ -1,0 +1,72 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Raleway', sans-serif;
+  margin: 0;
+}
+
+header {
+  text-align: center;
+  border: 1px solid #d0d0d0;
+}
+
+h1 {
+  text-transform: uppercase;
+}
+
+ul.anchor-block {
+  list-style: none;
+  padding: 0;
+}
+
+ul.anchor-block li {
+  display: inline-block;
+  margin: 0px 15px;
+}
+
+ul.anchor-block li a {
+  text-decoration: none;
+  color: #555;
+}
+
+#banner {
+ background-image: url("../img/jane.jpg");
+ background-repeat: no-repeat;
+ background-size: cover;
+ background-position: center;
+ height: 80vh;
+}
+
+#music {
+  width: 100%;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+iframe {
+  width: 90%;
+  height: 360px;
+}
+
+footer {
+  background-color: #f2f2f2;
+  text-align: center;
+}
+
+footer p {
+  padding: 10px;
+  margin: 0;
+}
+
+@media (max-width: 768px) {
+  #music {
+    padding: 0 20px;
+  }
+
+  iframe {
+    width: 100%;
+    height: 315px;
+  }
+}
